@@ -12,9 +12,9 @@ Aim: Practice tutorials to use Robot Framework for browser automation.
     - Etc. 
 
 ## To-do:
-- [x] setup python virtual environment with [poetry](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/package-managers/python/poetry.html)
-- [x] re-install robotframework-browser & [Playwright](https://playwright.dev/docs/intro)
-- [x] make a Github repository & share with Vincent
+- [x] Setup python virtual environment with [poetry](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/package-managers/python/poetry.html)
+- [x] Re-install robotframework-browser & [Playwright](https://playwright.dev/docs/intro)
+- [x] Push to Github repository 
 
 ## Resources: 
 - [Quick Start in RobotFramework](https://github.com/robotframework/QuickStartGuide/blob/master/QuickStart.rst)
