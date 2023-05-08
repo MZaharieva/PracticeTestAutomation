@@ -1,74 +1,80 @@
-{"level":30,"time":"2023-05-07T18:01:13.358Z","pid":40684,"hostname":"PCMA","msg":"Listening on 61903"}
-{"level":30,"time":"2023-05-07T18:01:13.648Z","pid":40684,"hostname":"PCMA","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-05-07T18:01:13.649Z","pid":40684,"hostname":"PCMA","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-05-07T18:01:13.668Z","pid":40684,"hostname":"PCMA","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2023-05-07T18:01:15.128Z","pid":40684,"hostname":"PCMA","msg":"End of node method newBrowser"}
-{"level":30,"time":"2023-05-07T18:01:15.142Z","pid":40684,"hostname":"PCMA","msg":"Start of node method newContext"}
-{"level":30,"time":"2023-05-07T18:01:15.142Z","pid":40684,"hostname":"PCMA","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2023-05-07T18:01:15.142Z","pid":40684,"hostname":"PCMA","msg":"Trace file: "}
-{"level":30,"time":"2023-05-07T18:01:15.281Z","pid":40684,"hostname":"PCMA","msg":"Changed active context"}
-{"level":30,"time":"2023-05-07T18:01:15.282Z","pid":40684,"hostname":"PCMA","msg":"End of node method newContext"}
-{"level":30,"time":"2023-05-07T18:01:15.302Z","pid":40684,"hostname":"PCMA","msg":"Start of node method newPage"}
-{"level":30,"time":"2023-05-07T18:01:15.303Z","pid":40684,"hostname":"PCMA","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2023-05-07T18:01:17.052Z","pid":40684,"hostname":"PCMA","msg":"Video path: undefined"}
-{"level":30,"time":"2023-05-07T18:01:17.052Z","pid":40684,"hostname":"PCMA","msg":"Changed active page"}
-{"level":30,"time":"2023-05-07T18:01:20.856Z","pid":40684,"hostname":"PCMA","msg":"End of node method newPage"}
-{"level":30,"time":"2023-05-07T18:01:21.063Z","pid":40684,"hostname":"PCMA","msg":"Start of node method getElementAttribute"}
-{"level":30,"time":"2023-05-07T18:01:21.064Z","pid":40684,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //iframe[@id=\"29789\"] in page."}
-{"level":30,"time":"2023-05-07T18:01:21.231Z","pid":40684,"hostname":"PCMA","msg":"Retrieved attribute for element //iframe[@id=\"29789\"] containing https://hypotheken.abnamro.nl/hypotheekorientatie/app/#/berekening-toevoegen"}
-{"level":30,"time":"2023-05-07T18:01:21.231Z","pid":40684,"hostname":"PCMA","msg":"End of node method getElementAttribute"}
-{"level":30,"time":"2023-05-07T18:01:21.239Z","pid":40684,"hostname":"PCMA","msg":"Start of node method newPage"}
-{"level":30,"time":"2023-05-07T18:01:21.239Z","pid":40684,"hostname":"PCMA","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2023-05-07T18:01:21.821Z","pid":40684,"hostname":"PCMA","msg":"Video path: undefined"}
-{"level":30,"time":"2023-05-07T18:01:21.822Z","pid":40684,"hostname":"PCMA","msg":"Changed active page"}
-{"level":30,"time":"2023-05-07T18:01:22.612Z","pid":40684,"hostname":"PCMA","msg":"End of node method newPage"}
-{"level":30,"time":"2023-05-07T18:01:22.638Z","pid":40684,"hostname":"PCMA","msg":"Start of node method click"}
-{"level":30,"time":"2023-05-07T18:01:22.639Z","pid":40684,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //button[@data-element-label=\"Ik heb nog geen hypotheek bij ABN AMRO\"] in page."}
-{"level":30,"time":"2023-05-07T18:01:23.787Z","pid":40684,"hostname":"PCMA","msg":"End of node method click"}
-{"level":30,"time":"2023-05-07T18:01:23.795Z","pid":40684,"hostname":"PCMA","msg":"Start of node method click"}
-{"level":30,"time":"2023-05-07T18:01:23.796Z","pid":40684,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //img[@alt=\"Alleen\"] in page."}
-{"level":30,"time":"2023-05-07T18:01:24.118Z","pid":40684,"hostname":"PCMA","msg":"End of node method click"}
-{"level":30,"time":"2023-05-07T18:01:24.145Z","pid":40684,"hostname":"PCMA","msg":"Start of node method typeText"}
-{"level":30,"time":"2023-05-07T18:01:24.146Z","pid":40684,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //input[@id=\"age\"] in page."}
-{"level":30,"time":"2023-05-07T18:01:25.165Z","pid":40684,"hostname":"PCMA","msg":"End of node method typeText"}
-{"level":30,"time":"2023-05-07T18:01:25.171Z","pid":40684,"hostname":"PCMA","msg":"Start of node method click"}
-{"level":30,"time":"2023-05-07T18:01:25.171Z","pid":40684,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //button[@class=\"base-btn__inner-button\"] in page."}
-{"level":30,"time":"2023-05-07T18:01:25.538Z","pid":40684,"hostname":"PCMA","msg":"End of node method click"}
-{"level":30,"time":"2023-05-07T18:01:25.544Z","pid":40684,"hostname":"PCMA","msg":"Start of node method click"}
-{"level":30,"time":"2023-05-07T18:01:25.545Z","pid":40684,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //button[@class=\"base-btn__inner-button\"] in page."}
-{"level":30,"time":"2023-05-07T18:01:25.789Z","pid":40684,"hostname":"PCMA","msg":"End of node method click"}
-{"level":30,"time":"2023-05-07T18:01:25.798Z","pid":40684,"hostname":"PCMA","msg":"Start of node method typeText"}
-{"level":30,"time":"2023-05-07T18:01:25.799Z","pid":40684,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with css=input#inputId in page."}
-{"level":30,"time":"2023-05-07T18:01:27.598Z","pid":40684,"hostname":"PCMA","msg":"End of node method typeText"}
-{"level":30,"time":"2023-05-07T18:01:27.602Z","pid":40684,"hostname":"PCMA","msg":"Start of node method click"}
-{"level":30,"time":"2023-05-07T18:01:27.602Z","pid":40684,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //button[@class=\"base-btn__inner-button\"] in page."}
-{"level":30,"time":"2023-05-07T18:01:28.367Z","pid":40684,"hostname":"PCMA","msg":"End of node method click"}
-{"level":30,"time":"2023-05-07T18:01:28.372Z","pid":40684,"hostname":"PCMA","msg":"Start of node method click"}
-{"level":30,"time":"2023-05-07T18:01:28.372Z","pid":40684,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[text()=\"Nee\"]/parent::div in page."}
-{"level":30,"time":"2023-05-07T18:01:28.536Z","pid":40684,"hostname":"PCMA","msg":"End of node method click"}
-{"level":30,"time":"2023-05-07T18:01:28.540Z","pid":40684,"hostname":"PCMA","msg":"Start of node method click"}
-{"level":30,"time":"2023-05-07T18:01:28.541Z","pid":40684,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[text()=\"Nee\"]/parent::div in page."}
-{"level":30,"time":"2023-05-07T18:01:28.709Z","pid":40684,"hostname":"PCMA","msg":"End of node method click"}
-{"level":30,"time":"2023-05-07T18:01:28.716Z","pid":40684,"hostname":"PCMA","msg":"Start of node method click"}
-{"level":30,"time":"2023-05-07T18:01:28.716Z","pid":40684,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[text()=\"Nee\"]/parent::div in page."}
-{"level":30,"time":"2023-05-07T18:01:28.874Z","pid":40684,"hostname":"PCMA","msg":"End of node method click"}
-{"level":30,"time":"2023-05-07T18:01:28.884Z","pid":40684,"hostname":"PCMA","msg":"Start of node method getText"}
-{"level":30,"time":"2023-05-07T18:01:28.884Z","pid":40684,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[@class=\"calculation-total__amount\"] in page."}
-{"level":30,"time":"2023-05-07T18:01:29.896Z","pid":40684,"hostname":"PCMA","msg":"Retrieved text for element //span[@class=\"calculation-total__amount\"] containing 229.500"}
-{"level":30,"time":"2023-05-07T18:01:29.896Z","pid":40684,"hostname":"PCMA","msg":"End of node method getText"}
-{"level":30,"time":"2023-05-07T18:01:34.923Z","pid":40684,"hostname":"PCMA","msg":"Start of node method newPage"}
-{"level":30,"time":"2023-05-07T18:01:34.923Z","pid":40684,"hostname":"PCMA","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2023-05-07T18:01:35.602Z","pid":40684,"hostname":"PCMA","msg":"Video path: undefined"}
-{"level":30,"time":"2023-05-07T18:01:35.602Z","pid":40684,"hostname":"PCMA","msg":"Changed active page"}
-{"level":30,"time":"2023-05-07T18:01:36.574Z","pid":40684,"hostname":"PCMA","msg":"End of node method newPage"}
-{"level":30,"time":"2023-05-07T18:01:36.581Z","pid":40684,"hostname":"PCMA","msg":"Start of node method typeText"}
-{"level":30,"time":"2023-05-07T18:01:36.581Z","pid":40684,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //input[@id=\"age\"] in page."}
-{"level":30,"time":"2023-05-07T18:01:38.281Z","pid":40684,"hostname":"PCMA","msg":"End of node method typeText"}
-{"level":30,"time":"2023-05-07T18:01:38.287Z","pid":40684,"hostname":"PCMA","msg":"Start of node method click"}
-{"level":30,"time":"2023-05-07T18:01:38.287Z","pid":40684,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //button[@class=\"base-btn__inner-button\"] in page."}
-{"level":30,"time":"2023-05-07T18:02:08.304Z","pid":40684,"hostname":"PCMA","msg":"Error of node method  click"}
+{"level":30,"time":"2023-05-08T21:00:58.291Z","pid":7808,"hostname":"PCMA","msg":"Listening on 58544"}
+{"level":30,"time":"2023-05-08T21:00:58.463Z","pid":7808,"hostname":"PCMA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-05-08T21:00:58.464Z","pid":7808,"hostname":"PCMA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-05-08T21:00:58.483Z","pid":7808,"hostname":"PCMA","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2023-05-08T21:01:00.950Z","pid":7808,"hostname":"PCMA","msg":"End of node method newBrowser"}
+{"level":30,"time":"2023-05-08T21:01:00.972Z","pid":7808,"hostname":"PCMA","msg":"Start of node method newContext"}
+{"level":30,"time":"2023-05-08T21:01:00.972Z","pid":7808,"hostname":"PCMA","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-05-08T21:01:00.973Z","pid":7808,"hostname":"PCMA","msg":"Trace file: "}
+{"level":30,"time":"2023-05-08T21:01:01.196Z","pid":7808,"hostname":"PCMA","msg":"Changed active context"}
+{"level":30,"time":"2023-05-08T21:01:01.197Z","pid":7808,"hostname":"PCMA","msg":"End of node method newContext"}
+{"level":30,"time":"2023-05-08T21:01:01.235Z","pid":7808,"hostname":"PCMA","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-05-08T21:01:01.235Z","pid":7808,"hostname":"PCMA","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-05-08T21:01:03.773Z","pid":7808,"hostname":"PCMA","msg":"Video path: undefined"}
+{"level":30,"time":"2023-05-08T21:01:03.773Z","pid":7808,"hostname":"PCMA","msg":"Changed active page"}
+{"level":30,"time":"2023-05-08T21:01:08.172Z","pid":7808,"hostname":"PCMA","msg":"End of node method newPage"}
+{"level":30,"time":"2023-05-08T21:01:08.527Z","pid":7808,"hostname":"PCMA","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2023-05-08T21:01:08.528Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //a[@id=\"aab-cookie-consent-agree\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:08.849Z","pid":7808,"hostname":"PCMA","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2023-05-08T21:01:08.864Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:08.865Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //a[@id=\"aab-cookie-consent-agree\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:09.887Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:09.918Z","pid":7808,"hostname":"PCMA","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2023-05-08T21:01:09.919Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //iframe[@id=\"29789\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:10.500Z","pid":7808,"hostname":"PCMA","msg":"Retrieved attribute for element //iframe[@id=\"29789\"] containing https://hypotheken.abnamro.nl/hypotheekorientatie/app/#/berekening-toevoegen"}
+{"level":30,"time":"2023-05-08T21:01:10.500Z","pid":7808,"hostname":"PCMA","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2023-05-08T21:01:10.513Z","pid":7808,"hostname":"PCMA","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-05-08T21:01:10.513Z","pid":7808,"hostname":"PCMA","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-05-08T21:01:11.258Z","pid":7808,"hostname":"PCMA","msg":"Video path: undefined"}
+{"level":30,"time":"2023-05-08T21:01:11.258Z","pid":7808,"hostname":"PCMA","msg":"Changed active page"}
+{"level":30,"time":"2023-05-08T21:01:12.335Z","pid":7808,"hostname":"PCMA","msg":"End of node method newPage"}
+{"level":30,"time":"2023-05-08T21:01:12.357Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:12.357Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //button[@data-element-label=\"Ik heb nog geen hypotheek bij ABN AMRO\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:13.627Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:13.638Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:13.638Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //img[@alt=\"Alleen\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:14.051Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:14.077Z","pid":7808,"hostname":"PCMA","msg":"Start of node method typeText"}
+{"level":30,"time":"2023-05-08T21:01:14.078Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //input[@id=\"age\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:15.049Z","pid":7808,"hostname":"PCMA","msg":"End of node method typeText"}
+{"level":30,"time":"2023-05-08T21:01:15.053Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:15.053Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //button[@class=\"base-btn__inner-button\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:15.412Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:15.432Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:15.432Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //button[@class=\"base-btn__inner-button\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:15.634Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:15.641Z","pid":7808,"hostname":"PCMA","msg":"Start of node method typeText"}
+{"level":30,"time":"2023-05-08T21:01:15.642Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with css=input#inputId in page."}
+{"level":30,"time":"2023-05-08T21:01:17.275Z","pid":7808,"hostname":"PCMA","msg":"End of node method typeText"}
+{"level":30,"time":"2023-05-08T21:01:17.279Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:17.279Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //button[@class=\"base-btn__inner-button\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:18.014Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:18.023Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:18.024Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[text()=\"Nee\"]/parent::div in page."}
+{"level":30,"time":"2023-05-08T21:01:18.150Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:18.158Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:18.158Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[text()=\"Nee\"]/parent::div in page."}
+{"level":30,"time":"2023-05-08T21:01:18.316Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:18.322Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:18.322Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[text()=\"Nee\"]/parent::div in page."}
+{"level":30,"time":"2023-05-08T21:01:18.499Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:18.508Z","pid":7808,"hostname":"PCMA","msg":"Start of node method getText"}
+{"level":30,"time":"2023-05-08T21:01:18.508Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[@class=\"calculation-total__amount\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:19.527Z","pid":7808,"hostname":"PCMA","msg":"Retrieved text for element //span[@class=\"calculation-total__amount\"] containing 229.500"}
+{"level":30,"time":"2023-05-08T21:01:19.527Z","pid":7808,"hostname":"PCMA","msg":"End of node method getText"}
+{"level":30,"time":"2023-05-08T21:01:20.556Z","pid":7808,"hostname":"PCMA","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-05-08T21:01:20.556Z","pid":7808,"hostname":"PCMA","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-05-08T21:01:21.113Z","pid":7808,"hostname":"PCMA","msg":"Video path: undefined"}
+{"level":30,"time":"2023-05-08T21:01:21.113Z","pid":7808,"hostname":"PCMA","msg":"Changed active page"}
+{"level":30,"time":"2023-05-08T21:01:22.196Z","pid":7808,"hostname":"PCMA","msg":"End of node method newPage"}
+{"level":30,"time":"2023-05-08T21:01:22.202Z","pid":7808,"hostname":"PCMA","msg":"Start of node method typeText"}
+{"level":30,"time":"2023-05-08T21:01:22.202Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //input[@id=\"age\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:24.005Z","pid":7808,"hostname":"PCMA","msg":"End of node method typeText"}
+{"level":30,"time":"2023-05-08T21:01:24.012Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:24.012Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //button[@class=\"base-btn__inner-button\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:39.022Z","pid":7808,"hostname":"PCMA","msg":"Error of node method  click"}
 ================= Original suppressed error =================
-locator.click: Timeout 30000ms exceeded.
+locator.click: Timeout 15000ms exceeded.
 =========================== logs ===========================
 waiting for locator('xpath=//button[@class="base-btn__inner-button"]')
   locator resolved to <button disabled type="button" data-v-655a9b73="" class=…>…</button>
@@ -82,30 +88,162 @@ attempting click action
   name: 'TimeoutError'
 }
 =============================================================
-{"level":30,"time":"2023-05-07T18:02:08.313Z","pid":40684,"hostname":"PCMA","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2023-05-07T18:02:08.423Z","pid":40684,"hostname":"PCMA","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2023-05-07T18:02:08.445Z","pid":40684,"hostname":"PCMA","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-05-07T18:02:08.453Z","pid":40684,"hostname":"PCMA","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-05-07T18:02:08.456Z","pid":40684,"hostname":"PCMA","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-05-07T18:02:08.469Z","pid":40684,"hostname":"PCMA","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-05-07T18:02:08.473Z","pid":40684,"hostname":"PCMA","msg":"Changed active context"}
-{"level":30,"time":"2023-05-07T18:02:08.473Z","pid":40684,"hostname":"PCMA","msg":"Changing current active page"}
-{"level":30,"time":"2023-05-07T18:02:08.473Z","pid":40684,"hostname":"PCMA","msg":"Changed active page"}
-{"level":30,"time":"2023-05-07T18:02:08.477Z","pid":40684,"hostname":"PCMA","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-05-07T18:02:08.489Z","pid":40684,"hostname":"PCMA","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-05-07T18:02:08.491Z","pid":40684,"hostname":"PCMA","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2023-05-07T18:02:08.492Z","pid":40684,"hostname":"PCMA","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2023-05-07T18:02:08.495Z","pid":40684,"hostname":"PCMA","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2023-05-07T18:02:08.495Z","pid":40684,"hostname":"PCMA","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2023-05-07T18:02:08.504Z","pid":40684,"hostname":"PCMA","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-05-07T18:02:08.516Z","pid":40684,"hostname":"PCMA","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-05-07T18:02:08.522Z","pid":40684,"hostname":"PCMA","msg":"Changed active context"}
-{"level":30,"time":"2023-05-07T18:02:08.522Z","pid":40684,"hostname":"PCMA","msg":"Changing current active page"}
-{"level":30,"time":"2023-05-07T18:02:08.522Z","pid":40684,"hostname":"PCMA","msg":"Changed active page"}
-{"level":30,"time":"2023-05-07T18:02:08.526Z","pid":40684,"hostname":"PCMA","msg":"Start of node method closeContext"}
-{"level":30,"time":"2023-05-07T18:02:08.558Z","pid":40684,"hostname":"PCMA","msg":"Removed page=c7fd6ac3-7154-4f2c-89e9-9b9c5629a113 from context=88cc1e51-9d8e-4db1-b7b1-28741bfd7fe6 page stack"}
-{"level":30,"time":"2023-05-07T18:02:08.589Z","pid":40684,"hostname":"PCMA","msg":"Removed page=c563d487-b5b0-406f-a809-8da677a12681 from context=88cc1e51-9d8e-4db1-b7b1-28741bfd7fe6 page stack"}
-{"level":30,"time":"2023-05-07T18:02:08.648Z","pid":40684,"hostname":"PCMA","msg":"Removed page=21fa25a5-792c-4cc6-afa7-cdc337a1e089 from context=88cc1e51-9d8e-4db1-b7b1-28741bfd7fe6 page stack"}
-{"level":30,"time":"2023-05-07T18:02:08.667Z","pid":40684,"hostname":"PCMA","msg":"End of node method closeContext"}
-{"level":30,"time":"2023-05-07T18:02:10.870Z","pid":40684,"hostname":"PCMA","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2023-05-07T18:02:11.583Z","pid":40684,"hostname":"PCMA","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2023-05-08T21:01:39.028Z","pid":7808,"hostname":"PCMA","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-05-08T21:01:39.119Z","pid":7808,"hostname":"PCMA","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-05-08T21:01:39.144Z","pid":7808,"hostname":"PCMA","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-05-08T21:01:39.144Z","pid":7808,"hostname":"PCMA","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-05-08T21:01:39.646Z","pid":7808,"hostname":"PCMA","msg":"Video path: undefined"}
+{"level":30,"time":"2023-05-08T21:01:39.646Z","pid":7808,"hostname":"PCMA","msg":"Changed active page"}
+{"level":30,"time":"2023-05-08T21:01:40.476Z","pid":7808,"hostname":"PCMA","msg":"End of node method newPage"}
+{"level":30,"time":"2023-05-08T21:01:40.481Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:40.481Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //aab-select[@class=\"dropdown-input__dropdown\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:40.830Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:40.847Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:40.847Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with text=Flexibel in page."}
+{"level":30,"time":"2023-05-08T21:01:41.273Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:41.281Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:41.281Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //button[@class=\"base-btn__inner-button\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:41.616Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:41.628Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:41.629Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[text()=\"Nee\"]/parent::div in page."}
+{"level":30,"time":"2023-05-08T21:01:41.748Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:41.757Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:41.758Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[text()=\"Nee\"]/parent::div in page."}
+{"level":30,"time":"2023-05-08T21:01:41.932Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:41.945Z","pid":7808,"hostname":"PCMA","msg":"Start of node method typeText"}
+{"level":30,"time":"2023-05-08T21:01:41.945Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with css=input#inputId in page."}
+{"level":30,"time":"2023-05-08T21:01:43.500Z","pid":7808,"hostname":"PCMA","msg":"End of node method typeText"}
+{"level":30,"time":"2023-05-08T21:01:43.505Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:43.505Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //button[@class=\"base-btn__inner-button\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:44.258Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:44.265Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:44.266Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[text()=\"Nee\"]/parent::div in page."}
+{"level":30,"time":"2023-05-08T21:01:44.397Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:44.402Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:44.403Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[text()=\"Nee\"]/parent::div in page."}
+{"level":30,"time":"2023-05-08T21:01:44.525Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:44.529Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:44.529Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[text()=\"Nee\"]/parent::div in page."}
+{"level":30,"time":"2023-05-08T21:01:44.714Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:44.724Z","pid":7808,"hostname":"PCMA","msg":"Start of node method getText"}
+{"level":30,"time":"2023-05-08T21:01:44.724Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[@class=\"calculation-total__amount\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:45.195Z","pid":7808,"hostname":"PCMA","msg":"Retrieved text for element //span[@class=\"calculation-total__amount\"] containing 0"}
+{"level":30,"time":"2023-05-08T21:01:45.196Z","pid":7808,"hostname":"PCMA","msg":"End of node method getText"}
+{"level":30,"time":"2023-05-08T21:01:46.241Z","pid":7808,"hostname":"PCMA","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-05-08T21:01:46.241Z","pid":7808,"hostname":"PCMA","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-05-08T21:01:46.662Z","pid":7808,"hostname":"PCMA","msg":"Video path: undefined"}
+{"level":30,"time":"2023-05-08T21:01:46.662Z","pid":7808,"hostname":"PCMA","msg":"Changed active page"}
+{"level":30,"time":"2023-05-08T21:01:47.261Z","pid":7808,"hostname":"PCMA","msg":"End of node method newPage"}
+{"level":30,"time":"2023-05-08T21:01:47.265Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:47.266Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //aab-select[@class=\"dropdown-input__dropdown\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:47.705Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:47.710Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:47.710Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with text=Flexibel in page."}
+{"level":30,"time":"2023-05-08T21:01:48.059Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:48.063Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:48.063Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //button[@class=\"base-btn__inner-button\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:48.228Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:48.237Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:48.237Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[text()=\"Nee\"]/parent::div in page."}
+{"level":30,"time":"2023-05-08T21:01:48.345Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:48.348Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:48.349Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[text()=\"Nee\"]/parent::div in page."}
+{"level":30,"time":"2023-05-08T21:01:48.493Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:48.500Z","pid":7808,"hostname":"PCMA","msg":"Start of node method typeText"}
+{"level":30,"time":"2023-05-08T21:01:48.501Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with css=input#inputId in page."}
+{"level":30,"time":"2023-05-08T21:01:50.063Z","pid":7808,"hostname":"PCMA","msg":"End of node method typeText"}
+{"level":30,"time":"2023-05-08T21:01:50.068Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:50.068Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //button[@class=\"base-btn__inner-button\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:50.935Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:50.946Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:50.946Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[text()=\"Nee\"]/parent::div in page."}
+{"level":30,"time":"2023-05-08T21:01:51.113Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:51.124Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:51.124Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[text()=\"Nee\"]/parent::div in page."}
+{"level":30,"time":"2023-05-08T21:01:51.252Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:51.278Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:51.278Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[text()=\"Nee\"]/parent::div in page."}
+{"level":30,"time":"2023-05-08T21:01:51.416Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:51.423Z","pid":7808,"hostname":"PCMA","msg":"Start of node method getText"}
+{"level":30,"time":"2023-05-08T21:01:51.423Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[@class=\"calculation-total__amount\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:51.853Z","pid":7808,"hostname":"PCMA","msg":"Retrieved text for element //span[@class=\"calculation-total__amount\"] containing 0"}
+{"level":30,"time":"2023-05-08T21:01:51.853Z","pid":7808,"hostname":"PCMA","msg":"End of node method getText"}
+{"level":30,"time":"2023-05-08T21:01:52.884Z","pid":7808,"hostname":"PCMA","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-05-08T21:01:52.884Z","pid":7808,"hostname":"PCMA","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-05-08T21:01:53.315Z","pid":7808,"hostname":"PCMA","msg":"Video path: undefined"}
+{"level":30,"time":"2023-05-08T21:01:53.315Z","pid":7808,"hostname":"PCMA","msg":"Changed active page"}
+{"level":30,"time":"2023-05-08T21:01:54.058Z","pid":7808,"hostname":"PCMA","msg":"End of node method newPage"}
+{"level":30,"time":"2023-05-08T21:01:54.063Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:54.064Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //aab-select[@class=\"dropdown-input__dropdown\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:54.568Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:54.576Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:54.576Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with text=Zelfstandig in page."}
+{"level":30,"time":"2023-05-08T21:01:54.844Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:54.854Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:54.854Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //button[@class=\"base-btn__inner-button\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:55.161Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:55.172Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:55.172Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //aab-select[@class=\"dropdown-input__dropdown\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:55.279Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:55.289Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:55.289Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with text=Tussen 1 en 2 jaar in page."}
+{"level":30,"time":"2023-05-08T21:01:55.391Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:55.395Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:55.395Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //button[@class=\"base-btn__inner-button\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:55.576Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:55.587Z","pid":7808,"hostname":"PCMA","msg":"Start of node method typeText"}
+{"level":30,"time":"2023-05-08T21:01:55.587Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with css=input#inputId in page."}
+{"level":30,"time":"2023-05-08T21:01:57.182Z","pid":7808,"hostname":"PCMA","msg":"End of node method typeText"}
+{"level":30,"time":"2023-05-08T21:01:57.186Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:57.186Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //button[@class=\"base-btn__inner-button\"] in page."}
+{"level":30,"time":"2023-05-08T21:01:58.022Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:01:58.044Z","pid":7808,"hostname":"PCMA","msg":"Start of node method typeText"}
+{"level":30,"time":"2023-05-08T21:01:58.044Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with css=input#inputId in page."}
+{"level":30,"time":"2023-05-08T21:01:59.627Z","pid":7808,"hostname":"PCMA","msg":"End of node method typeText"}
+{"level":30,"time":"2023-05-08T21:01:59.632Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:01:59.632Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //button[@class=\"base-btn__inner-button\"] in page."}
+{"level":30,"time":"2023-05-08T21:02:00.392Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:02:00.402Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:02:00.402Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[text()=\"Nee\"]/parent::div in page."}
+{"level":30,"time":"2023-05-08T21:02:00.511Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:02:00.519Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:02:00.519Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[text()=\"Nee\"]/parent::div in page."}
+{"level":30,"time":"2023-05-08T21:02:00.624Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:02:00.631Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:02:00.631Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[text()=\"Nee\"]/parent::div in page."}
+{"level":30,"time":"2023-05-08T21:02:00.742Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:02:00.748Z","pid":7808,"hostname":"PCMA","msg":"Start of node method click"}
+{"level":30,"time":"2023-05-08T21:02:00.748Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[text()=\"Nee\"]/parent::div in page."}
+{"level":30,"time":"2023-05-08T21:02:00.952Z","pid":7808,"hostname":"PCMA","msg":"End of node method click"}
+{"level":30,"time":"2023-05-08T21:02:00.958Z","pid":7808,"hostname":"PCMA","msg":"Start of node method getText"}
+{"level":30,"time":"2023-05-08T21:02:00.958Z","pid":7808,"hostname":"PCMA","msg":"Strict mode is enabled, find Locator with //span[@class=\"calculation-total__amount\"] in page."}
+{"level":30,"time":"2023-05-08T21:02:01.594Z","pid":7808,"hostname":"PCMA","msg":"Retrieved text for element //span[@class=\"calculation-total__amount\"] containing 168.757"}
+{"level":30,"time":"2023-05-08T21:02:01.594Z","pid":7808,"hostname":"PCMA","msg":"End of node method getText"}
+{"level":30,"time":"2023-05-08T21:02:02.667Z","pid":7808,"hostname":"PCMA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-05-08T21:02:02.680Z","pid":7808,"hostname":"PCMA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-05-08T21:02:02.682Z","pid":7808,"hostname":"PCMA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-05-08T21:02:02.692Z","pid":7808,"hostname":"PCMA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-05-08T21:02:02.696Z","pid":7808,"hostname":"PCMA","msg":"Changed active context"}
+{"level":30,"time":"2023-05-08T21:02:02.696Z","pid":7808,"hostname":"PCMA","msg":"Changing current active page"}
+{"level":30,"time":"2023-05-08T21:02:02.696Z","pid":7808,"hostname":"PCMA","msg":"Changed active page"}
+{"level":30,"time":"2023-05-08T21:02:02.700Z","pid":7808,"hostname":"PCMA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-05-08T21:02:02.706Z","pid":7808,"hostname":"PCMA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-05-08T21:02:02.707Z","pid":7808,"hostname":"PCMA","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-05-08T21:02:02.708Z","pid":7808,"hostname":"PCMA","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-05-08T21:02:02.709Z","pid":7808,"hostname":"PCMA","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-05-08T21:02:02.710Z","pid":7808,"hostname":"PCMA","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-05-08T21:02:02.715Z","pid":7808,"hostname":"PCMA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-05-08T21:02:02.721Z","pid":7808,"hostname":"PCMA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-05-08T21:02:02.723Z","pid":7808,"hostname":"PCMA","msg":"Changed active context"}
+{"level":30,"time":"2023-05-08T21:02:02.723Z","pid":7808,"hostname":"PCMA","msg":"Changing current active page"}
+{"level":30,"time":"2023-05-08T21:02:02.723Z","pid":7808,"hostname":"PCMA","msg":"Changed active page"}
+{"level":30,"time":"2023-05-08T21:02:02.727Z","pid":7808,"hostname":"PCMA","msg":"Start of node method closeContext"}
+{"level":30,"time":"2023-05-08T21:02:02.756Z","pid":7808,"hostname":"PCMA","msg":"Removed page=a5b4578b-8ff2-4674-87c2-858a20f74e85 from context=b5556128-eed6-436b-9fb1-8c4c2f9db60b page stack"}
+{"level":30,"time":"2023-05-08T21:02:02.801Z","pid":7808,"hostname":"PCMA","msg":"Removed page=c83cebdf-c96f-4191-b7a5-c68b73df6f21 from context=b5556128-eed6-436b-9fb1-8c4c2f9db60b page stack"}
+{"level":30,"time":"2023-05-08T21:02:02.852Z","pid":7808,"hostname":"PCMA","msg":"Removed page=59dcfbd9-df4d-4fbe-81f3-09f0cb15f0fb from context=b5556128-eed6-436b-9fb1-8c4c2f9db60b page stack"}
+{"level":30,"time":"2023-05-08T21:02:02.883Z","pid":7808,"hostname":"PCMA","msg":"Removed page=e35c0da6-e89e-4f42-92b5-fcab9144a448 from context=b5556128-eed6-436b-9fb1-8c4c2f9db60b page stack"}
+{"level":30,"time":"2023-05-08T21:02:02.930Z","pid":7808,"hostname":"PCMA","msg":"Removed page=edecdfcb-a944-45f7-babd-205bf544819d from context=b5556128-eed6-436b-9fb1-8c4c2f9db60b page stack"}
+{"level":30,"time":"2023-05-08T21:02:02.987Z","pid":7808,"hostname":"PCMA","msg":"Removed page=5dfe06af-834a-40cb-89a8-4c225945afd8 from context=b5556128-eed6-436b-9fb1-8c4c2f9db60b page stack"}
+{"level":30,"time":"2023-05-08T21:02:03.006Z","pid":7808,"hostname":"PCMA","msg":"End of node method closeContext"}
+{"level":30,"time":"2023-05-08T21:02:05.318Z","pid":7808,"hostname":"PCMA","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-05-08T21:02:06.032Z","pid":7808,"hostname":"PCMA","msg":"End of node method closeAllBrowsers"}

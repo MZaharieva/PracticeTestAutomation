@@ -1,20 +1,27 @@
 ## General Info
-Aim: Practice tutorials to use Robot Framework for browser automation. 
+Aim: Practice tutorials to use Robot Framework for web automation. 
 
 ## Test questions & answers: 
 1) Primary test: When going through the simplest choice path of the [ABN mortgage calculator](https://www.abnamro.nl/nl/prive/hypotheken/maximale-hypotheek-berekenen.html), does the calculator output a numeric calculation for mortgage? 
-   1) Yes, see Report for ABN Test Numeric Mortgage Calculation.
+   a) Yes, see Report for ABN Test Numeric Mortgage Calculation.
 2) Additional tests: 
-    - Does the calculator correctly assign relative mortgate values given certain modifiers? 
-      - TBD.
-    - Does the calculator stop if invalid age is inputed? 
+   a) Does the calculator correctly assign relative mortgate values given certain modifiers? 
+      - The mortgage estimate given same annual income is as follows: Fixed contract >= Self-Employment (1-2 years) >= Flexible contract (<2 year)
+   b)  Does the calculator stop if invalid age is inputed? 
       - Yes, see ABN Test Valid Age Input.
-    - Etc. 
+   c) Etc. 
 
 ## To-do:
-- [x] Setup python virtual environment with [poetry](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/package-managers/python/poetry.html)
+- [x] Setup Python virtual environment with [poetry](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/package-managers/python/poetry.html)
 - [x] Re-install robotframework-browser & [Playwright](https://playwright.dev/docs/intro)
-- [x] Push to Github repository 
+- [x] Test Q.1
+- [x] Test Q.2a
+- [x] Test Q.2b
+- [x] Push v.1.0+ to Github repository 
+- [ ] Wrap repetitive code into functions
+- [ ] Search for example code for testing decision trees
+- [ ] Look up a professional report for style & adapt the current script accordingly (particularly for neater documentation!!)
+- [ ] Check whether there is a built-in function to repeat keyword sequences
 
 ## Resources: 
 - [Quick Start in RobotFramework](https://github.com/robotframework/QuickStartGuide/blob/master/QuickStart.rst)
@@ -40,6 +47,7 @@ Aim: Practice tutorials to use Robot Framework for browser automation.
   //input[@id = "username"], where input is the tag name, [] defines a set of criteria, and @id = "username" specifies some attribute
 - Avoid searching tags in the whole document via / 
 - Could combine / and // expressions to allocate tags (but should be avoided) 
+- Shadow DOM >> Handle with CSS rather than XPath in Playwright
 
 ## Learning trajectory: 
 - CSS/Xpath

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.0.2 (Python 3.11.3 on win32)" generated="20230507 20:01:12.212" rpa="false" schemaversion="3">
+<robot generator="Robot 6.0.2 (Python 3.11.3 on win32)" generated="20230508 23:00:56.938" rpa="false" schemaversion="3">
 <suite id="s1" name="Practice Test Automation" source="c:\Users\mstza\surfdrive\RobotFrameworkDemos\practice_test_automation.robot">
-<test id="s1-t1" name="ABN Test Numeric Mortgage Calculation" line="33">
+<test id="s1-t1" name="ABN Test Numeric Mortgage Calculation" line="25">
 <kw name="Register Keyword To Run On Failure" library="Browser">
 <arg>Take Screenshot</arg>
 <arg>failure-{index}</arg>
 <arg>fullPage=True</arg>
 <tag>Config</tag>
 <doc>Sets the keyword to execute, when a Browser keyword fails.</doc>
-<msg timestamp="20230507 20:01:13.652" level="INFO">'Take Screenshot  failure-{index}  fullPage=True' will be run on failure.</msg>
-<status status="PASS" starttime="20230507 20:01:13.652" endtime="20230507 20:01:13.660"/>
+<msg timestamp="20230508 23:00:58.468" level="INFO">'Take Screenshot  failure-{index}  fullPage=True' will be run on failure.</msg>
+<status status="PASS" starttime="20230508 23:00:58.466" endtime="20230508 23:00:58.476"/>
 </kw>
 <kw name="New Browser" library="Browser">
 <arg>firefox</arg>
@@ -17,16 +17,16 @@
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<msg timestamp="20230507 20:01:13.661" level="INFO">{"browser": "firefox", "headless": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "deprecated_pos_args": [], "tracesDir": "C:\\Users\\mstza\\surfdrive\\RobotFrameworkDemos\\browser\\traces\\020e6d54-45a9-4ddc-8b08-30d6bb60e3a9"}</msg>
-<msg timestamp="20230507 20:01:15.130" level="INFO">Successfully created browser with options: {"browser":"firefox","headless":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"deprecated_pos_args":[],"tracesDir":"C:\\Users\\mstza\\surfdrive\\RobotFrameworkDemos\\browser\\traces\\020e6d54-45a9-4ddc-8b08-30d6bb60e3a9"}</msg>
-<status status="PASS" starttime="20230507 20:01:13.661" endtime="20230507 20:01:15.130"/>
+<msg timestamp="20230508 23:00:58.479" level="INFO">{"browser": "firefox", "headless": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "deprecated_pos_args": [], "tracesDir": "C:\\Users\\mstza\\surfdrive\\RobotFrameworkDemos\\browser\\traces\\19bd230b-bb41-441c-a547-d75dcb04e9e0"}</msg>
+<msg timestamp="20230508 23:01:00.952" level="INFO">Successfully created browser with options: {"browser":"firefox","headless":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"deprecated_pos_args":[],"tracesDir":"C:\\Users\\mstza\\surfdrive\\RobotFrameworkDemos\\browser\\traces\\19bd230b-bb41-441c-a547-d75dcb04e9e0"}</msg>
+<status status="PASS" starttime="20230508 23:00:58.477" endtime="20230508 23:01:00.953"/>
 </kw>
 <kw name="New Context" library="Browser">
 <arg>viewport={'width': 1920, 'height': 1080}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new BrowserContext with specified options.</doc>
-<msg timestamp="20230507 20:01:15.138" level="INFO">{
+<msg timestamp="20230508 23:01:00.968" level="INFO">{
   "acceptDownloads": true,
   "bypassCSP": false,
   "forcedColors": "none",
@@ -41,31 +41,31 @@
   },
   "deprecated_pos_args": []
 }</msg>
-<msg timestamp="20230507 20:01:15.279" level="INFO">Successfully created context. </msg>
-<msg timestamp="20230507 20:01:15.279" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'hideRfBrowser': False, 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'viewport': {'width': 1920, 'height': 1080}, 'deprecated_pos_args': []}</msg>
-<status status="PASS" starttime="20230507 20:01:15.130" endtime="20230507 20:01:15.279"/>
+<msg timestamp="20230508 23:01:01.202" level="INFO">Successfully created context. </msg>
+<msg timestamp="20230508 23:01:01.202" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'hideRfBrowser': False, 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'viewport': {'width': 1920, 'height': 1080}, 'deprecated_pos_args': []}</msg>
+<status status="PASS" starttime="20230508 23:01:00.966" endtime="20230508 23:01:01.203"/>
 </kw>
 <kw name="Set Browser Timeout" library="Browser">
-<arg>0:00:30</arg>
+<arg>0:00:15</arg>
 <tag>Config</tag>
 <tag>Setter</tag>
 <doc>Sets the timeout used by most input and getter keywords.</doc>
-<msg timestamp="20230507 20:01:15.295" level="INFO">Set timeout to: 30000</msg>
-<status status="PASS" starttime="20230507 20:01:15.279" endtime="20230507 20:01:15.295"/>
+<msg timestamp="20230508 23:01:01.229" level="INFO">Set timeout to: 15000</msg>
+<status status="PASS" starttime="20230508 23:01:01.219" endtime="20230508 23:01:01.229"/>
 </kw>
 <kw name="New Page" library="Browser">
 <arg>https://www.abnamro.nl/nl/prive/hypotheken/maximale-hypotheek-berekenen.html</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<msg timestamp="20230507 20:01:20.853" level="INFO">Successfully initialized new page object and opened url: https://www.abnamro.nl/nl/prive/hypotheken/maximale-hypotheek-berekenen.html</msg>
-<status status="PASS" starttime="20230507 20:01:15.295" endtime="20230507 20:01:20.853"/>
+<msg timestamp="20230508 23:01:08.176" level="INFO">Successfully initialized new page object and opened url: https://www.abnamro.nl/nl/prive/hypotheken/maximale-hypotheek-berekenen.html</msg>
+<status status="PASS" starttime="20230508 23:01:01.231" endtime="20230508 23:01:08.177"/>
 </kw>
 <kw name="Log" library="BuiltIn">
 <arg>Page opened.</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20230507 20:01:20.861" level="INFO">Page opened.</msg>
-<status status="PASS" starttime="20230507 20:01:20.861" endtime="20230507 20:01:20.861"/>
+<msg timestamp="20230508 23:01:08.186" level="INFO">Page opened.</msg>
+<status status="PASS" starttime="20230508 23:01:08.185" endtime="20230508 23:01:08.186"/>
 </kw>
 <kw name="Get Title" library="Browser">
 <var>${title}</var>
@@ -73,19 +73,36 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns the title of the current page.</doc>
-<msg timestamp="20230507 20:01:21.046" level="INFO">Title: 'Hypotheek berekenen in 2023 - ABN AMRO'</msg>
-<msg timestamp="20230507 20:01:21.046" level="INFO">${title} = Hypotheek berekenen in 2023 - ABN AMRO</msg>
-<status status="PASS" starttime="20230507 20:01:20.861" endtime="20230507 20:01:21.046"/>
+<msg timestamp="20230508 23:01:08.516" level="INFO">Title: 'Hypotheek berekenen in 2023 - ABN AMRO'</msg>
+<msg timestamp="20230508 23:01:08.516" level="INFO">${title} = Hypotheek berekenen in 2023 - ABN AMRO</msg>
+<status status="PASS" starttime="20230508 23:01:08.187" endtime="20230508 23:01:08.517"/>
 </kw>
 <kw name="Should Be Equal" library="BuiltIn">
 <arg>${title}</arg>
 <arg>Hypotheek berekenen in 2023 - ABN AMRO</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" starttime="20230507 20:01:21.054" endtime="20230507 20:01:21.054"/>
+<status status="PASS" starttime="20230508 23:01:08.518" endtime="20230508 23:01:08.519"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>//a[@id="aab-cookie-consent-agree"]</arg>
+<arg>visible</arg>
+<arg>timeout=2 s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20230508 23:01:08.852" level="INFO">Waited for Element with selector //a[@id="aab-cookie-consent-agree"] at state visible</msg>
+<status status="PASS" starttime="20230508 23:01:08.521" endtime="20230508 23:01:08.852"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>//a[@id="aab-cookie-consent-agree"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:08.859" endtime="20230508 23:01:09.890"/>
 </kw>
 <kw name="Open Iframe">
 <arg>selector=//iframe[@id="29789"]</arg>
-<doc>Opens an Iframe in a new page.</doc>
+<doc>Gets Iframe URL from src and opens it in a new page.</doc>
 <kw name="Get Attribute" library="Browser">
 <var>${iframe}</var>
 <arg>${selector}</arg>
@@ -94,39 +111,39 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns the HTML ``attribute`` of the element found by ``selector``.</doc>
-<msg timestamp="20230507 20:01:21.229" level="INFO">Attribute is: 'https://hypotheken.abnamro.nl/hypotheekorientatie/app/#/berekening-toevoegen'</msg>
-<msg timestamp="20230507 20:01:21.229" level="INFO">${iframe} = https://hypotheken.abnamro.nl/hypotheekorientatie/app/#/berekening-toevoegen</msg>
-<status status="PASS" starttime="20230507 20:01:21.054" endtime="20230507 20:01:21.229"/>
+<msg timestamp="20230508 23:01:10.503" level="INFO">Attribute is: 'https://hypotheken.abnamro.nl/hypotheekorientatie/app/#/berekening-toevoegen'</msg>
+<msg timestamp="20230508 23:01:10.504" level="INFO">${iframe} = https://hypotheken.abnamro.nl/hypotheekorientatie/app/#/berekening-toevoegen</msg>
+<status status="PASS" starttime="20230508 23:01:09.909" endtime="20230508 23:01:10.504"/>
 </kw>
 <kw name="Log" library="BuiltIn">
 <arg>${iframe}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20230507 20:01:21.229" level="INFO">https://hypotheken.abnamro.nl/hypotheekorientatie/app/#/berekening-toevoegen</msg>
-<status status="PASS" starttime="20230507 20:01:21.229" endtime="20230507 20:01:21.229"/>
+<msg timestamp="20230508 23:01:10.506" level="INFO">https://hypotheken.abnamro.nl/hypotheekorientatie/app/#/berekening-toevoegen</msg>
+<status status="PASS" starttime="20230508 23:01:10.505" endtime="20230508 23:01:10.506"/>
 </kw>
 <kw name="New Page" library="Browser">
 <arg>${iframe}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<msg timestamp="20230507 20:01:22.617" level="INFO">Successfully initialized new page object and opened url: https://hypotheken.abnamro.nl/hypotheekorientatie/app/#/berekening-toevoegen</msg>
-<status status="PASS" starttime="20230507 20:01:21.229" endtime="20230507 20:01:22.618"/>
+<msg timestamp="20230508 23:01:12.337" level="INFO">Successfully initialized new page object and opened url: https://hypotheken.abnamro.nl/hypotheekorientatie/app/#/berekening-toevoegen</msg>
+<status status="PASS" starttime="20230508 23:01:10.507" endtime="20230508 23:01:12.338"/>
 </kw>
-<status status="PASS" starttime="20230507 20:01:21.054" endtime="20230507 20:01:22.619"/>
+<status status="PASS" starttime="20230508 23:01:09.906" endtime="20230508 23:01:12.339"/>
 </kw>
 <kw name="Click" library="Browser">
 <arg>//button[@data-element-label="Ik heb nog geen hypotheek bij ABN AMRO"]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230507 20:01:22.626" endtime="20230507 20:01:23.784"/>
+<status status="PASS" starttime="20230508 23:01:12.352" endtime="20230508 23:01:13.635"/>
 </kw>
 <kw name="Click" library="Browser">
 <arg>//img[@alt="Alleen"]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230507 20:01:23.784" endtime="20230507 20:01:24.116"/>
+<status status="PASS" starttime="20230508 23:01:13.636" endtime="20230508 23:01:14.053"/>
 </kw>
 <kw name="Get Url" library="Browser">
 <var>${url_page_3}</var>
@@ -134,14 +151,14 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns the current URL.</doc>
-<msg timestamp="20230507 20:01:24.124" level="INFO">${url_page_3} = https://hypotheken.abnamro.nl/hypotheekorientatie/app/#/berekening-toevoegen-flow?amountOfApplicants=alone</msg>
-<status status="PASS" starttime="20230507 20:01:24.116" endtime="20230507 20:01:24.124"/>
+<msg timestamp="20230508 23:01:14.064" level="INFO">${url_page_3} = https://hypotheken.abnamro.nl/hypotheekorientatie/app/#/berekening-toevoegen-flow?amountOfApplicants=alone</msg>
+<status status="PASS" starttime="20230508 23:01:14.056" endtime="20230508 23:01:14.064"/>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <arg>$url_page_3</arg>
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
-<msg timestamp="20230507 20:01:24.132" level="INFO">${url_page_3} = https://hypotheken.abnamro.nl/hypotheekorientatie/app/#/berekening-toevoegen-flow?amountOfApplicants=alone</msg>
-<status status="PASS" starttime="20230507 20:01:24.132" endtime="20230507 20:01:24.132"/>
+<msg timestamp="20230508 23:01:14.068" level="INFO">${url_page_3} = https://hypotheken.abnamro.nl/hypotheekorientatie/app/#/berekening-toevoegen-flow?amountOfApplicants=alone</msg>
+<status status="PASS" starttime="20230508 23:01:14.067" endtime="20230508 23:01:14.068"/>
 </kw>
 <kw name="Type Text" library="Browser">
 <arg>//input[@id="age"]</arg>
@@ -150,60 +167,85 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20230507 20:01:24.132" level="INFO">Types the text '"30"' in the given field.</msg>
-<status status="PASS" starttime="20230507 20:01:24.132" endtime="20230507 20:01:25.167"/>
+<msg timestamp="20230508 23:01:14.074" level="INFO">Types the text '"30"' in the given field.</msg>
+<status status="PASS" starttime="20230508 23:01:14.073" endtime="20230508 23:01:15.050"/>
 </kw>
 <kw name="Click" library="Browser">
 <arg>//button[@class="base-btn__inner-button"]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230507 20:01:25.168" endtime="20230507 20:01:25.540"/>
+<status status="PASS" starttime="20230508 23:01:15.051" endtime="20230508 23:01:15.415"/>
+</kw>
+<kw name="Get Url" library="Browser">
+<var>${url_page_5}</var>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the current URL.</doc>
+<msg timestamp="20230508 23:01:15.422" level="INFO">${url_page_5} = https://hypotheken.abnamro.nl/hypotheekorientatie/app/#/berekening-toevoegen-flow?amountOfApplicants=alone&amp;age=30</msg>
+<status status="PASS" starttime="20230508 23:01:15.418" endtime="20230508 23:01:15.423"/>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<arg>$url_page_5</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<msg timestamp="20230508 23:01:15.426" level="INFO">${url_page_5} = https://hypotheken.abnamro.nl/hypotheekorientatie/app/#/berekening-toevoegen-flow?amountOfApplicants=alone&amp;age=30</msg>
+<status status="PASS" starttime="20230508 23:01:15.425" endtime="20230508 23:01:15.426"/>
 </kw>
 <kw name="Click" library="Browser">
 <arg>//button[@class="base-btn__inner-button"]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230507 20:01:25.542" endtime="20230507 20:01:25.790"/>
+<status status="PASS" starttime="20230508 23:01:15.429" endtime="20230508 23:01:15.636"/>
 </kw>
 <kw name="Type Text" library="Browser">
 <arg>css=input#inputId</arg>
-<arg>txt="55.555"</arg>
+<arg>txt="55555"</arg>
 <arg>delay=200 ms</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20230507 20:01:25.794" level="INFO">Types the text '"55.555"' in the given field.</msg>
-<status status="PASS" starttime="20230507 20:01:25.792" endtime="20230507 20:01:27.600"/>
+<msg timestamp="20230508 23:01:15.638" level="INFO">Types the text '"55555"' in the given field.</msg>
+<status status="PASS" starttime="20230508 23:01:15.637" endtime="20230508 23:01:17.276"/>
 </kw>
 <kw name="Click" library="Browser">
 <arg>//button[@class="base-btn__inner-button"]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230507 20:01:27.601" endtime="20230507 20:01:28.368"/>
+<status status="PASS" starttime="20230508 23:01:17.277" endtime="20230508 23:01:18.017"/>
 </kw>
+<kw name="Repeat Keyword" library="BuiltIn">
+<arg>3</arg>
+<arg>Click</arg>
+<arg>//span[text()="Nee"]/parent::div</arg>
+<doc>Executes the specified keyword multiple times.</doc>
+<msg timestamp="20230508 23:01:18.019" level="INFO">Repeating keyword, round 1/3.</msg>
 <kw name="Click" library="Browser">
 <arg>//span[text()="Nee"]/parent::div</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230507 20:01:28.369" endtime="20230507 20:01:28.537"/>
+<status status="PASS" starttime="20230508 23:01:18.019" endtime="20230508 23:01:18.152"/>
 </kw>
+<msg timestamp="20230508 23:01:18.153" level="INFO">Repeating keyword, round 2/3.</msg>
 <kw name="Click" library="Browser">
 <arg>//span[text()="Nee"]/parent::div</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230507 20:01:28.538" endtime="20230507 20:01:28.712"/>
+<status status="PASS" starttime="20230508 23:01:18.153" endtime="20230508 23:01:18.318"/>
 </kw>
+<msg timestamp="20230508 23:01:18.318" level="INFO">Repeating keyword, round 3/3.</msg>
 <kw name="Click" library="Browser">
 <arg>//span[text()="Nee"]/parent::div</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20230507 20:01:28.714" endtime="20230507 20:01:28.879"/>
+<status status="PASS" starttime="20230508 23:01:18.319" endtime="20230508 23:01:18.501"/>
+</kw>
+<status status="PASS" starttime="20230508 23:01:18.018" endtime="20230508 23:01:18.502"/>
 </kw>
 <kw name="Get Text" library="Browser">
 <var>${mortgage_amount}</var>
@@ -212,30 +254,30 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<msg timestamp="20230507 20:01:29.898" level="INFO">Text: '229.500'</msg>
-<msg timestamp="20230507 20:01:29.899" level="INFO">${mortgage_amount} = 229.500</msg>
-<status status="PASS" starttime="20230507 20:01:28.880" endtime="20230507 20:01:29.899"/>
+<msg timestamp="20230508 23:01:19.527" level="INFO">Text: '229.500'</msg>
+<msg timestamp="20230508 23:01:19.528" level="INFO">${mortgage_amount} = 229.500</msg>
+<status status="PASS" starttime="20230508 23:01:18.504" endtime="20230508 23:01:19.528"/>
 </kw>
 <kw name="Log" library="BuiltIn">
 <arg>${mortgage_amount}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20230507 20:01:29.901" level="INFO">229.500</msg>
-<status status="PASS" starttime="20230507 20:01:29.900" endtime="20230507 20:01:29.901"/>
+<msg timestamp="20230508 23:01:19.529" level="INFO">229.500</msg>
+<status status="PASS" starttime="20230508 23:01:19.529" endtime="20230508 23:01:19.530"/>
 </kw>
 <kw name="Remove String" library="String">
 <var>${mortgage_amount}</var>
 <arg>${mortgage_amount}</arg>
 <arg>.</arg>
 <doc>Removes all ``removables`` from the given ``string``.</doc>
-<msg timestamp="20230507 20:01:29.903" level="INFO">${mortgage_amount} = 229500</msg>
-<status status="PASS" starttime="20230507 20:01:29.902" endtime="20230507 20:01:29.903"/>
+<msg timestamp="20230508 23:01:19.531" level="INFO">${mortgage_amount} = 229500</msg>
+<status status="PASS" starttime="20230508 23:01:19.531" endtime="20230508 23:01:19.531"/>
 </kw>
 <kw name="Convert To Number" library="BuiltIn">
 <var>${numeric_test_result}</var>
 <arg>${mortgage_amount}</arg>
 <doc>Converts the given item to a floating point number.</doc>
-<msg timestamp="20230507 20:01:29.905" level="INFO">${numeric_test_result} = 229500.0</msg>
-<status status="PASS" starttime="20230507 20:01:29.904" endtime="20230507 20:01:29.905"/>
+<msg timestamp="20230508 23:01:19.532" level="INFO">${numeric_test_result} = 229500.0</msg>
+<status status="PASS" starttime="20230508 23:01:19.532" endtime="20230508 23:01:19.533"/>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <arg>${numeric_test_result} &gt;= 0</arg>
@@ -248,27 +290,34 @@
 <kw name="Log" library="BuiltIn">
 <arg>Mortgage amount is numeric.</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20230507 20:01:29.911" level="INFO">Mortgage amount is numeric.</msg>
-<status status="PASS" starttime="20230507 20:01:29.910" endtime="20230507 20:01:29.911"/>
+<msg timestamp="20230508 23:01:19.535" level="INFO">Mortgage amount is numeric.</msg>
+<status status="PASS" starttime="20230508 23:01:19.534" endtime="20230508 23:01:19.535"/>
 </kw>
-<status status="PASS" starttime="20230507 20:01:29.909" endtime="20230507 20:01:29.912"/>
+<status status="PASS" starttime="20230508 23:01:19.533" endtime="20230508 23:01:19.535"/>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<arg>$numeric_test_result_fixed</arg>
+<arg>${numeric_test_result}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<msg timestamp="20230508 23:01:19.538" level="INFO">${numeric_test_result_fixed} = 229500.0</msg>
+<status status="PASS" starttime="20230508 23:01:19.537" endtime="20230508 23:01:19.538"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
-<arg>5 s</arg>
+<arg>1 s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20230507 20:01:34.914" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20230507 20:01:29.913" endtime="20230507 20:01:34.914"/>
+<msg timestamp="20230508 23:01:20.541" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20230508 23:01:19.540" endtime="20230508 23:01:20.541"/>
 </kw>
-<status status="PASS" starttime="20230507 20:01:13.644" endtime="20230507 20:01:34.915"/>
+<status status="PASS" starttime="20230508 23:00:58.465" endtime="20230508 23:01:20.543"/>
 </test>
-<test id="s1-t2" name="ABN Test Valid Age Input" line="73">
+<test id="s1-t2" name="ABN Test Valid Age Input" line="66">
 <kw name="New Page" library="Browser">
 <arg>${url_page_3}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<msg timestamp="20230507 20:01:36.575" level="INFO">Successfully initialized new page object and opened url: https://hypotheken.abnamro.nl/hypotheekorientatie/app/#/berekening-toevoegen-flow?amountOfApplicants=alone</msg>
-<status status="PASS" starttime="20230507 20:01:34.921" endtime="20230507 20:01:36.575"/>
+<msg timestamp="20230508 23:01:22.197" level="INFO">Successfully initialized new page object and opened url: https://hypotheken.abnamro.nl/hypotheekorientatie/app/#/berekening-toevoegen-flow?amountOfApplicants=alone</msg>
+<status status="PASS" starttime="20230508 23:01:20.552" endtime="20230508 23:01:22.198"/>
 </kw>
 <kw name="Type Text" library="Browser">
 <arg>//input[@id="age"]</arg>
@@ -277,8 +326,8 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20230507 20:01:36.579" level="INFO">Types the text '"1000"' in the given field.</msg>
-<status status="PASS" starttime="20230507 20:01:36.575" endtime="20230507 20:01:38.280"/>
+<msg timestamp="20230508 23:01:22.200" level="INFO">Types the text '"1000"' in the given field.</msg>
+<status status="PASS" starttime="20230508 23:01:22.199" endtime="20230508 23:01:24.008"/>
 </kw>
 <kw name="Run Keyword And Expect Error" library="BuiltIn">
 <arg>TimeoutError: locator.click:*</arg>
@@ -290,8 +339,8 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<msg timestamp="20230507 20:02:08.425" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/failure-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/failure-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<msg timestamp="20230507 20:02:08.425" level="FAIL">TimeoutError: locator.click: Timeout 30000ms exceeded.
+<msg timestamp="20230508 23:01:39.120" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/failure-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/failure-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230508 23:01:39.121" level="FAIL">TimeoutError: locator.click: Timeout 15000ms exceeded.
 =========================== logs ===========================
 waiting for locator('xpath=//button[@class="base-btn__inner-button"]')
   locator resolved to &lt;button disabled type="button" data-v-655a9b73="" class=…&gt;…&lt;/button&gt;
@@ -300,22 +349,607 @@ attempting click action
     element is not enabled - waiting...
 ============================================================
 Tip: Use "Set Browser Timeout" for increasing the timeout or double check your locator as the targeted element(s) couldn't be found.</msg>
-<status status="FAIL" starttime="20230507 20:01:38.284" endtime="20230507 20:02:08.433"/>
+<status status="FAIL" starttime="20230508 23:01:24.010" endtime="20230508 23:01:39.133"/>
 </kw>
-<status status="PASS" starttime="20230507 20:01:38.284" endtime="20230507 20:02:08.434"/>
+<status status="PASS" starttime="20230508 23:01:24.009" endtime="20230508 23:01:39.134"/>
 </kw>
-<status status="PASS" starttime="20230507 20:01:34.917" endtime="20230507 20:02:08.435"/>
+<status status="PASS" starttime="20230508 23:01:20.551" endtime="20230508 23:01:39.135"/>
 </test>
-<status status="PASS" starttime="20230507 20:01:12.220" endtime="20230507 20:02:08.441"/>
+<test id="s1-t3" name="ABN Test Ordinal Mortgage Calculation: Fixed Employment Contract" line="74">
+<kw name="New Page" library="Browser">
+<arg>${url_page_5}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<msg timestamp="20230508 23:01:40.477" level="INFO">Successfully initialized new page object and opened url: https://hypotheken.abnamro.nl/hypotheekorientatie/app/#/berekening-toevoegen-flow?amountOfApplicants=alone&amp;age=30</msg>
+<status status="PASS" starttime="20230508 23:01:39.142" endtime="20230508 23:01:40.477"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>//aab-select[@class="dropdown-input__dropdown"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:40.478" endtime="20230508 23:01:40.835"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>text=Flexibel</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:40.845" endtime="20230508 23:01:41.276"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>//button[@class="base-btn__inner-button"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:41.278" endtime="20230508 23:01:41.621"/>
+</kw>
+<kw name="Repeat Keyword" library="BuiltIn">
+<arg>2</arg>
+<arg>Click</arg>
+<arg>//span[text()="Nee"]/parent::div</arg>
+<doc>Executes the specified keyword multiple times.</doc>
+<msg timestamp="20230508 23:01:41.624" level="INFO">Repeating keyword, round 1/2.</msg>
+<kw name="Click" library="Browser">
+<arg>//span[text()="Nee"]/parent::div</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:41.625" endtime="20230508 23:01:41.750"/>
+</kw>
+<msg timestamp="20230508 23:01:41.752" level="INFO">Repeating keyword, round 2/2.</msg>
+<kw name="Click" library="Browser">
+<arg>//span[text()="Nee"]/parent::div</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:41.753" endtime="20230508 23:01:41.937"/>
+</kw>
+<status status="PASS" starttime="20230508 23:01:41.623" endtime="20230508 23:01:41.939"/>
+</kw>
+<kw name="Type Text" library="Browser">
+<arg>css=input#inputId</arg>
+<arg>txt="55555"</arg>
+<arg>delay=200 ms</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20230508 23:01:41.942" level="INFO">Types the text '"55555"' in the given field.</msg>
+<status status="PASS" starttime="20230508 23:01:41.941" endtime="20230508 23:01:43.502"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>//button[@class="base-btn__inner-button"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:43.503" endtime="20230508 23:01:44.260"/>
+</kw>
+<kw name="Repeat Keyword" library="BuiltIn">
+<arg>3</arg>
+<arg>Click</arg>
+<arg>//span[text()="Nee"]/parent::div</arg>
+<doc>Executes the specified keyword multiple times.</doc>
+<msg timestamp="20230508 23:01:44.262" level="INFO">Repeating keyword, round 1/3.</msg>
+<kw name="Click" library="Browser">
+<arg>//span[text()="Nee"]/parent::div</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:44.263" endtime="20230508 23:01:44.398"/>
+</kw>
+<msg timestamp="20230508 23:01:44.398" level="INFO">Repeating keyword, round 2/3.</msg>
+<kw name="Click" library="Browser">
+<arg>//span[text()="Nee"]/parent::div</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:44.400" endtime="20230508 23:01:44.526"/>
+</kw>
+<msg timestamp="20230508 23:01:44.526" level="INFO">Repeating keyword, round 3/3.</msg>
+<kw name="Click" library="Browser">
+<arg>//span[text()="Nee"]/parent::div</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:44.527" endtime="20230508 23:01:44.715"/>
+</kw>
+<status status="PASS" starttime="20230508 23:01:44.261" endtime="20230508 23:01:44.717"/>
+</kw>
+<kw name="Get Text" library="Browser">
+<var>${mortgage_amount}</var>
+<arg>//span[@class="calculation-total__amount"]</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<msg timestamp="20230508 23:01:45.196" level="INFO">Text: '0'</msg>
+<msg timestamp="20230508 23:01:45.197" level="INFO">${mortgage_amount} = 0</msg>
+<status status="PASS" starttime="20230508 23:01:44.719" endtime="20230508 23:01:45.197"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${mortgage_amount}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230508 23:01:45.199" level="INFO">0</msg>
+<status status="PASS" starttime="20230508 23:01:45.198" endtime="20230508 23:01:45.200"/>
+</kw>
+<kw name="Remove String" library="String">
+<var>${mortgage_amount}</var>
+<arg>${mortgage_amount}</arg>
+<arg>.</arg>
+<doc>Removes all ``removables`` from the given ``string``.</doc>
+<msg timestamp="20230508 23:01:45.202" level="INFO">${mortgage_amount} = 0</msg>
+<status status="PASS" starttime="20230508 23:01:45.202" endtime="20230508 23:01:45.203"/>
+</kw>
+<kw name="Convert To Number" library="BuiltIn">
+<var>${numeric_test_result}</var>
+<arg>${mortgage_amount}</arg>
+<doc>Converts the given item to a floating point number.</doc>
+<msg timestamp="20230508 23:01:45.204" level="INFO">${numeric_test_result} = 0.0</msg>
+<status status="PASS" starttime="20230508 23:01:45.204" endtime="20230508 23:01:45.204"/>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<arg>${numeric_test_result} &gt;= 0</arg>
+<arg>Log</arg>
+<arg>Mortgage amount is numeric.</arg>
+<arg>ELSE</arg>
+<arg>Fail</arg>
+<arg>Mortgage amount is not numeric.</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<kw name="Log" library="BuiltIn">
+<arg>Mortgage amount is numeric.</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230508 23:01:45.209" level="INFO">Mortgage amount is numeric.</msg>
+<status status="PASS" starttime="20230508 23:01:45.209" endtime="20230508 23:01:45.209"/>
+</kw>
+<status status="PASS" starttime="20230508 23:01:45.205" endtime="20230508 23:01:45.210"/>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<arg>$numeric_test_result_flex</arg>
+<arg>${numeric_test_result}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<msg timestamp="20230508 23:01:45.211" level="INFO">${numeric_test_result_flex} = 0.0</msg>
+<status status="PASS" starttime="20230508 23:01:45.210" endtime="20230508 23:01:45.211"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${numeric_test_result_fixed}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230508 23:01:45.213" level="INFO">229500.0</msg>
+<status status="PASS" starttime="20230508 23:01:45.212" endtime="20230508 23:01:45.213"/>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<arg>$numeric_test_result_fixed &gt;= $numeric_test_result_flex</arg>
+<arg>Log</arg>
+<arg>Test PASSED - greater or equal mortgage estimate for "Fixed" than for "Flex" contract.</arg>
+<arg>ELSE</arg>
+<arg>Fail</arg>
+<arg>Test FAILED - lower mortgage estimate for "Fixed" than for "Flex" contract.</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<kw name="Log" library="BuiltIn">
+<arg>Test PASSED - greater or equal mortgage estimate for "Fixed" than for "Flex" contract.</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230508 23:01:45.224" level="INFO">Test PASSED - greater or equal mortgage estimate for "Fixed" than for "Flex" contract.</msg>
+<status status="PASS" starttime="20230508 23:01:45.224" endtime="20230508 23:01:45.224"/>
+</kw>
+<status status="PASS" starttime="20230508 23:01:45.214" endtime="20230508 23:01:45.224"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1 s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230508 23:01:46.226" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20230508 23:01:45.225" endtime="20230508 23:01:46.226"/>
+</kw>
+<status status="PASS" starttime="20230508 23:01:39.141" endtime="20230508 23:01:46.230"/>
+</test>
+<test id="s1-t4" name="ABN Test Ordinal Mortgage Calculation: Flexible Employment Contract" line="102">
+<kw name="New Page" library="Browser">
+<arg>${url_page_5}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<msg timestamp="20230508 23:01:47.261" level="INFO">Successfully initialized new page object and opened url: https://hypotheken.abnamro.nl/hypotheekorientatie/app/#/berekening-toevoegen-flow?amountOfApplicants=alone&amp;age=30</msg>
+<status status="PASS" starttime="20230508 23:01:46.239" endtime="20230508 23:01:47.262"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>//aab-select[@class="dropdown-input__dropdown"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:47.263" endtime="20230508 23:01:47.706"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>text=Flexibel</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:47.707" endtime="20230508 23:01:48.060"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>//button[@class="base-btn__inner-button"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:48.061" endtime="20230508 23:01:48.230"/>
+</kw>
+<kw name="Repeat Keyword" library="BuiltIn">
+<arg>2</arg>
+<arg>Click</arg>
+<arg>//span[text()="Nee"]/parent::div</arg>
+<doc>Executes the specified keyword multiple times.</doc>
+<msg timestamp="20230508 23:01:48.232" level="INFO">Repeating keyword, round 1/2.</msg>
+<kw name="Click" library="Browser">
+<arg>//span[text()="Nee"]/parent::div</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:48.233" endtime="20230508 23:01:48.345"/>
+</kw>
+<msg timestamp="20230508 23:01:48.346" level="INFO">Repeating keyword, round 2/2.</msg>
+<kw name="Click" library="Browser">
+<arg>//span[text()="Nee"]/parent::div</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:48.346" endtime="20230508 23:01:48.495"/>
+</kw>
+<status status="PASS" starttime="20230508 23:01:48.231" endtime="20230508 23:01:48.496"/>
+</kw>
+<kw name="Type Text" library="Browser">
+<arg>css=input#inputId</arg>
+<arg>txt="55555"</arg>
+<arg>delay=200 ms</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20230508 23:01:48.497" level="INFO">Types the text '"55555"' in the given field.</msg>
+<status status="PASS" starttime="20230508 23:01:48.496" endtime="20230508 23:01:50.064"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>//button[@class="base-btn__inner-button"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:50.066" endtime="20230508 23:01:50.937"/>
+</kw>
+<kw name="Repeat Keyword" library="BuiltIn">
+<arg>3</arg>
+<arg>Click</arg>
+<arg>//span[text()="Nee"]/parent::div</arg>
+<doc>Executes the specified keyword multiple times.</doc>
+<msg timestamp="20230508 23:01:50.940" level="INFO">Repeating keyword, round 1/3.</msg>
+<kw name="Click" library="Browser">
+<arg>//span[text()="Nee"]/parent::div</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:50.941" endtime="20230508 23:01:51.117"/>
+</kw>
+<msg timestamp="20230508 23:01:51.118" level="INFO">Repeating keyword, round 2/3.</msg>
+<kw name="Click" library="Browser">
+<arg>//span[text()="Nee"]/parent::div</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:51.118" endtime="20230508 23:01:51.254"/>
+</kw>
+<msg timestamp="20230508 23:01:51.255" level="INFO">Repeating keyword, round 3/3.</msg>
+<kw name="Click" library="Browser">
+<arg>//span[text()="Nee"]/parent::div</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:51.255" endtime="20230508 23:01:51.417"/>
+</kw>
+<status status="PASS" starttime="20230508 23:01:50.939" endtime="20230508 23:01:51.418"/>
+</kw>
+<kw name="Get Text" library="Browser">
+<var>${mortgage_amount}</var>
+<arg>//span[@class="calculation-total__amount"]</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<msg timestamp="20230508 23:01:51.854" level="INFO">Text: '0'</msg>
+<msg timestamp="20230508 23:01:51.854" level="INFO">${mortgage_amount} = 0</msg>
+<status status="PASS" starttime="20230508 23:01:51.420" endtime="20230508 23:01:51.854"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${mortgage_amount}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230508 23:01:51.856" level="INFO">0</msg>
+<status status="PASS" starttime="20230508 23:01:51.855" endtime="20230508 23:01:51.856"/>
+</kw>
+<kw name="Remove String" library="String">
+<var>${mortgage_amount}</var>
+<arg>${mortgage_amount}</arg>
+<arg>.</arg>
+<doc>Removes all ``removables`` from the given ``string``.</doc>
+<msg timestamp="20230508 23:01:51.857" level="INFO">${mortgage_amount} = 0</msg>
+<status status="PASS" starttime="20230508 23:01:51.857" endtime="20230508 23:01:51.857"/>
+</kw>
+<kw name="Convert To Number" library="BuiltIn">
+<var>${numeric_test_result}</var>
+<arg>${mortgage_amount}</arg>
+<doc>Converts the given item to a floating point number.</doc>
+<msg timestamp="20230508 23:01:51.859" level="INFO">${numeric_test_result} = 0.0</msg>
+<status status="PASS" starttime="20230508 23:01:51.858" endtime="20230508 23:01:51.859"/>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<arg>${numeric_test_result} &gt;= 0</arg>
+<arg>Log</arg>
+<arg>Mortgage amount is numeric.</arg>
+<arg>ELSE</arg>
+<arg>Fail</arg>
+<arg>Mortgage amount is not numeric.</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<kw name="Log" library="BuiltIn">
+<arg>Mortgage amount is numeric.</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230508 23:01:51.861" level="INFO">Mortgage amount is numeric.</msg>
+<status status="PASS" starttime="20230508 23:01:51.860" endtime="20230508 23:01:51.861"/>
+</kw>
+<status status="PASS" starttime="20230508 23:01:51.859" endtime="20230508 23:01:51.862"/>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<arg>$numeric_test_result_flex</arg>
+<arg>${numeric_test_result}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<msg timestamp="20230508 23:01:51.863" level="INFO">${numeric_test_result_flex} = 0.0</msg>
+<status status="PASS" starttime="20230508 23:01:51.862" endtime="20230508 23:01:51.864"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${numeric_test_result_fixed}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230508 23:01:51.866" level="INFO">229500.0</msg>
+<status status="PASS" starttime="20230508 23:01:51.865" endtime="20230508 23:01:51.866"/>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<arg>$numeric_test_result_fixed &gt;= $numeric_test_result_flex</arg>
+<arg>Log</arg>
+<arg>Test PASSED - greater or equal mortgage estimate for "Fixed" than for "Flex" contract.</arg>
+<arg>ELSE</arg>
+<arg>Fail</arg>
+<arg>Test FAILED - lower mortgage estimate for "Fixed" than for "Flex" contract.</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<kw name="Log" library="BuiltIn">
+<arg>Test PASSED - greater or equal mortgage estimate for "Fixed" than for "Flex" contract.</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230508 23:01:51.869" level="INFO">Test PASSED - greater or equal mortgage estimate for "Fixed" than for "Flex" contract.</msg>
+<status status="PASS" starttime="20230508 23:01:51.868" endtime="20230508 23:01:51.869"/>
+</kw>
+<status status="PASS" starttime="20230508 23:01:51.867" endtime="20230508 23:01:51.869"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1 s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230508 23:01:52.872" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20230508 23:01:51.870" endtime="20230508 23:01:52.872"/>
+</kw>
+<status status="PASS" starttime="20230508 23:01:46.238" endtime="20230508 23:01:52.874"/>
+</test>
+<test id="s1-t5" name="ABN Test Ordinal Mortgage Calculation: Self-Employment Employment Contract" line="130">
+<kw name="New Page" library="Browser">
+<arg>${url_page_5}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<msg timestamp="20230508 23:01:54.059" level="INFO">Successfully initialized new page object and opened url: https://hypotheken.abnamro.nl/hypotheekorientatie/app/#/berekening-toevoegen-flow?amountOfApplicants=alone&amp;age=30</msg>
+<status status="PASS" starttime="20230508 23:01:52.882" endtime="20230508 23:01:54.060"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>//aab-select[@class="dropdown-input__dropdown"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:54.061" endtime="20230508 23:01:54.571"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>text=Zelfstandig</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:54.572" endtime="20230508 23:01:54.845"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>//button[@class="base-btn__inner-button"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:54.850" endtime="20230508 23:01:55.164"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>//aab-select[@class="dropdown-input__dropdown"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:55.170" endtime="20230508 23:01:55.280"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>text=Tussen 1 en 2 jaar</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:55.285" endtime="20230508 23:01:55.393"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>//button[@class="base-btn__inner-button"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:55.394" endtime="20230508 23:01:55.578"/>
+</kw>
+<kw name="Type Text" library="Browser">
+<arg>css=input#inputId</arg>
+<arg>txt="55555"</arg>
+<arg>delay=200 ms</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20230508 23:01:55.584" level="INFO">Types the text '"55555"' in the given field.</msg>
+<status status="PASS" starttime="20230508 23:01:55.581" endtime="20230508 23:01:57.183"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>//button[@class="base-btn__inner-button"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:57.184" endtime="20230508 23:01:58.028"/>
+</kw>
+<kw name="Type Text" library="Browser">
+<arg>css=input#inputId</arg>
+<arg>txt="55555"</arg>
+<arg>delay=200 ms</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20230508 23:01:58.042" level="INFO">Types the text '"55555"' in the given field.</msg>
+<status status="PASS" starttime="20230508 23:01:58.041" endtime="20230508 23:01:59.628"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>//button[@class="base-btn__inner-button"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:01:59.630" endtime="20230508 23:02:00.393"/>
+</kw>
+<kw name="Repeat Keyword" library="BuiltIn">
+<arg>4</arg>
+<arg>Click</arg>
+<arg>//span[text()="Nee"]/parent::div</arg>
+<doc>Executes the specified keyword multiple times.</doc>
+<msg timestamp="20230508 23:02:00.396" level="INFO">Repeating keyword, round 1/4.</msg>
+<kw name="Click" library="Browser">
+<arg>//span[text()="Nee"]/parent::div</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:02:00.397" endtime="20230508 23:02:00.514"/>
+</kw>
+<msg timestamp="20230508 23:02:00.515" level="INFO">Repeating keyword, round 2/4.</msg>
+<kw name="Click" library="Browser">
+<arg>//span[text()="Nee"]/parent::div</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:02:00.516" endtime="20230508 23:02:00.626"/>
+</kw>
+<msg timestamp="20230508 23:02:00.626" level="INFO">Repeating keyword, round 3/4.</msg>
+<kw name="Click" library="Browser">
+<arg>//span[text()="Nee"]/parent::div</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:02:00.627" endtime="20230508 23:02:00.743"/>
+</kw>
+<msg timestamp="20230508 23:02:00.744" level="INFO">Repeating keyword, round 4/4.</msg>
+<kw name="Click" library="Browser">
+<arg>//span[text()="Nee"]/parent::div</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230508 23:02:00.744" endtime="20230508 23:02:00.954"/>
+</kw>
+<status status="PASS" starttime="20230508 23:02:00.394" endtime="20230508 23:02:00.954"/>
+</kw>
+<kw name="Get Text" library="Browser">
+<var>${mortgage_amount}</var>
+<arg>//span[@class="calculation-total__amount"]</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<msg timestamp="20230508 23:02:01.597" level="INFO">Text: '168.757'</msg>
+<msg timestamp="20230508 23:02:01.598" level="INFO">${mortgage_amount} = 168.757</msg>
+<status status="PASS" starttime="20230508 23:02:00.956" endtime="20230508 23:02:01.598"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${mortgage_amount}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230508 23:02:01.600" level="INFO">168.757</msg>
+<status status="PASS" starttime="20230508 23:02:01.599" endtime="20230508 23:02:01.600"/>
+</kw>
+<kw name="Remove String" library="String">
+<var>${mortgage_amount}</var>
+<arg>${mortgage_amount}</arg>
+<arg>.</arg>
+<doc>Removes all ``removables`` from the given ``string``.</doc>
+<msg timestamp="20230508 23:02:01.602" level="INFO">${mortgage_amount} = 168757</msg>
+<status status="PASS" starttime="20230508 23:02:01.601" endtime="20230508 23:02:01.602"/>
+</kw>
+<kw name="Convert To Number" library="BuiltIn">
+<var>${numeric_test_result}</var>
+<arg>${mortgage_amount}</arg>
+<doc>Converts the given item to a floating point number.</doc>
+<msg timestamp="20230508 23:02:01.604" level="INFO">${numeric_test_result} = 168757.0</msg>
+<status status="PASS" starttime="20230508 23:02:01.603" endtime="20230508 23:02:01.604"/>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<arg>${numeric_test_result} &gt;= 0</arg>
+<arg>Log</arg>
+<arg>Mortgage amount is numeric.</arg>
+<arg>ELSE</arg>
+<arg>Fail</arg>
+<arg>Mortgage amount is not numeric.</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<kw name="Log" library="BuiltIn">
+<arg>Mortgage amount is numeric.</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230508 23:02:01.607" level="INFO">Mortgage amount is numeric.</msg>
+<status status="PASS" starttime="20230508 23:02:01.606" endtime="20230508 23:02:01.607"/>
+</kw>
+<status status="PASS" starttime="20230508 23:02:01.605" endtime="20230508 23:02:01.608"/>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<arg>$numeric_test_result_self</arg>
+<arg>${numeric_test_result}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<msg timestamp="20230508 23:02:01.641" level="INFO">${numeric_test_result_self} = 168757.0</msg>
+<status status="PASS" starttime="20230508 23:02:01.640" endtime="20230508 23:02:01.642"/>
+</kw>
+<kw name="Log Many" library="BuiltIn">
+<arg>${numeric_test_result_fixed}</arg>
+<arg>${numeric_test_result_self}</arg>
+<arg>${numeric_test_result_flex}</arg>
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<msg timestamp="20230508 23:02:01.644" level="INFO">229500.0</msg>
+<msg timestamp="20230508 23:02:01.645" level="INFO">168757.0</msg>
+<msg timestamp="20230508 23:02:01.646" level="INFO">0.0</msg>
+<status status="PASS" starttime="20230508 23:02:01.643" endtime="20230508 23:02:01.646"/>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<arg>$numeric_test_result_fixed &gt;= $numeric_test_result_self &gt;= $numeric_test_result_flex</arg>
+<arg>Log</arg>
+<arg>Test PASSED - greater or equal mortgage estimate for "Fixed" than for "Flex" contract.</arg>
+<arg>ELSE</arg>
+<arg>Fail</arg>
+<arg>Test FAILED - lower mortgage estimate for "Fixed" than for "Flex" contract.</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<kw name="Log" library="BuiltIn">
+<arg>Test PASSED - greater or equal mortgage estimate for "Fixed" than for "Flex" contract.</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230508 23:02:01.650" level="INFO">Test PASSED - greater or equal mortgage estimate for "Fixed" than for "Flex" contract.</msg>
+<status status="PASS" starttime="20230508 23:02:01.649" endtime="20230508 23:02:01.650"/>
+</kw>
+<status status="PASS" starttime="20230508 23:02:01.648" endtime="20230508 23:02:01.650"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1 s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230508 23:02:02.652" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20230508 23:02:01.651" endtime="20230508 23:02:02.652"/>
+</kw>
+<status status="PASS" starttime="20230508 23:01:52.880" endtime="20230508 23:02:02.653"/>
+</test>
+<status status="PASS" starttime="20230508 23:00:56.953" endtime="20230508 23:02:02.659"/>
 </suite>
 <statistics>
 <total>
-<stat pass="2" fail="0" skip="0">All Tests</stat>
+<stat pass="5" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="2" fail="0" skip="0" id="s1" name="Practice Test Automation">Practice Test Automation</stat>
+<stat pass="5" fail="0" skip="0" id="s1" name="Practice Test Automation">Practice Test Automation</stat>
 </suite>
 </statistics>
 <errors>
