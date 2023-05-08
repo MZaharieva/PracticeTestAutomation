@@ -26,24 +26,23 @@ Aim: Practice tutorials to use Robot Framework for browser automation.
 - [XPath vs. CSS selectors](https://www.scrapingbee.com/blog/xpath-vs-css-selector/)
 
 ## Notes & General Tips for Web Test Automation: 
-- When installing new packages >> RESTART VS code project 
+- Aim to automate tests with reference to unique and stationary properties of the webpage 
+- When installing new packages >> RESTART VS Code project 
 - Use Mozilla Firefox for webpage automation 
 - When test automation projects scale up, keep Test Cases and Keywords apart 
-- For browser automation, use Playwright within Robot Framework [stable alternative to Selenium]
-- To locate an element within iframes, you need to search the element within the iframe (iframe punch-through)
-- Use CSS or XPATH to query XML/HTML (can be also done via the web element inspector)
-- CSS - most commonly used, less verbose, but excludes content; # = id 
-- XPATH - great for searchiing tag content, hierarchy (parent, child, sibling, etc.)
-- Aim to automate with reference to unique and stationary properties of the webpage (e.g., hierarchy can change) 
+- Check out adding roadmaps to projects (i.e., longer-term project planning)
+- For webpage automation, use Playwright within Robot Framework [stable alternative to Selenium]
+- To locate an element within iframes, you need to search the element within the iframe (i.e., iframe punch-through)
 - XML - user-defined tags; HTML - universal for building webpages
+- Use CSS or XPath to query XML/HTML (can be also done via the web element inspector)
+- CSS - most commonly used, less verbose, but excludes content
+- XPath - great for searching tag content, handles hierarchy (parent, child, sibling, etc.); 
+  //input[@id = "username"], where input is the tag name, [] defines a set of criteria, and @id = "username" specifies some attribute
+- Avoid searching tags in the whole document via / 
+- Could combine / and // expressions to allocate tags (but should be avoided) 
 
-//input[@id = "username"], where input is the tag name, [] defines a set of criteria, and @id = "username" specifies some attribute
-
-- Avoid searching tags in the whole document via / expression
-- can combine / and // expressions to allocate tags (but should be avoided) 
-- Overview Xpath & CSS selectors: https://www.scrapingbee.com/blog/xpath-vs-css-selector/ 
-- Install Robot Framework Language Server plugn for code support 
-- Node.js - java script engine for browser automation
-- Check out adding roadmaps to projects (the overall project planning/scale-up)
-
-
+## Learning trajectory: 
+- CSS/Xpath
+- HTML (+ understand webpage development)
+- Improve Python (for custom functions in Robot Framework)
+- Improve RegEx (for more precise text search)
