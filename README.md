@@ -3,13 +3,13 @@ Aim: Practice tutorials to use Robot Framework for web automation.
 
 ## Test questions & answers: 
 1) Primary test: When going through the simplest choice path of the [ABN mortgage calculator](https://www.abnamro.nl/nl/prive/hypotheken/maximale-hypotheek-berekenen.html), does the calculator output a numeric calculation for mortgage? 
-   a) Yes, see Report for ABN Test Numeric Mortgage Calculation.
+   - Yes, see Report for ABN Test Numeric Mortgage Calculation.
 2) Additional tests: 
-   a) Does the calculator correctly assign relative mortgate values given certain modifiers? 
+   - Does the calculator correctly assign relative mortgate values given certain modifiers? 
       - The mortgage estimate given same annual income is as follows: Fixed contract >= Self-Employment (1-2 years) >= Flexible contract (<2 year)
-   b)  Does the calculator stop if invalid age is inputed? 
+   -  Does the calculator stop if invalid age is inputed? 
       - Yes, see ABN Test Valid Age Input.
-   c) Etc. 
+   - Etc. 
 
 ## To-do:
 - [x] Setup Python virtual environment with [poetry](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/package-managers/python/poetry.html)
