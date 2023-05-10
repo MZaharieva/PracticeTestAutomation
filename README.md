@@ -7,7 +7,7 @@ Aim: Practice tutorials to use Robot Framework for web automation.
 2) Additional tests: 
    - Does the calculator correctly assign relative mortgate values given certain modifiers? 
       - The mortgage estimate given same annual income is as follows: Fixed contract >= Self-Employment (1-2 years) >= Flexible contract (<2 year)
-   -  Does the calculator stop if invalid age is inputed? 
+   -  Does the calculator flow stop if invalid age is inputed? 
       - Yes, see ABN Test Valid Age Input.
    - Etc. 
 
@@ -19,9 +19,10 @@ Aim: Practice tutorials to use Robot Framework for web automation.
 - [x] Test Q.2b
 - [x] Push v.1.0+ to Github repository 
 - [ ] Wrap repetitive code into functions
-- [ ] Search for example code for testing decision trees
-- [ ] Look up a professional report for style & adapt the current script accordingly (particularly for neater documentation!!)
-- [ ] Check whether there is a built-in function to repeat keyword sequences
+- [ ] Search for example test flow for decision trees (e.g., from dropdown menus)
+- [x] Look up a professional report for style & adapt the current script accordingly 
+- [x] Check documentation content guide
+- [x] Check whether there is a built-in function to repeat keyword sequences
 
 ## Resources: 
 - [Quick Start in RobotFramework](https://github.com/robotframework/QuickStartGuide/blob/master/QuickStart.rst)
@@ -31,9 +32,15 @@ Aim: Practice tutorials to use Robot Framework for web automation.
 - [Articles on Test Automation](https://testersdock.com/)
 - [XPath, CSS, HTML Syntax](https://www.w3schools.com/xml/xpath_syntax.asp#gsc.tab=0)
 - [XPath vs. CSS selectors](https://www.scrapingbee.com/blog/xpath-vs-css-selector/)
+- [Robot Framework (Roboco[r]p) style guide](https://github.com/MarketSquare/robotframework-robocop)
+- [Robocorp Automation Stack](https://github.com/robocorp/rcc)
+- [Documenting Workflow tests and Data-Driven tests](https://github.com/robotframework/HowToWriteGoodTestCases/blob/master/HowToWriteGoodTestCases.rst)
+
 
 ## Notes & General Tips for Web Test Automation: 
-- Aim to automate tests with reference to unique and stationary properties of the webpage 
+- Aim to automate tests with reference to unique and stationary properties of the webpage. 
+  E.g., Layout stays rather stable, process flow is more likely to change in terms of 
+  action steps or behavior-input contingencies. 
 - When installing new packages >> RESTART VS Code project 
 - Use Mozilla Firefox for webpage automation 
 - When test automation projects scale up, keep Test Cases and Keywords apart 
