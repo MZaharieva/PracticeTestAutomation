@@ -1,16 +1,3 @@
-'''
-Questions: 
-- How to branch off tests? 
-  >> Also see documentation Data-driven tests in readme.md
-
-- Testing with Python?
-
-- Why didn't this approach work?
-  #Try Click  xpath://iframe[@id="29789"] >> css:img[alt=Alleen]
-  >> Returns Error: locator.click: Unsupported token "@id" while parsing selector ...
-  >> See "Try Iframe Injection Approach" below
-'''
-
 *** Settings ***
 Documentation  "ABN Test Numeric Mortgage Calculation" goes through the simplest choice 
 ...            path of the mortgage calculator and checks whether the output is a numeric 
@@ -25,6 +12,10 @@ Metadata  Version  1.2
 
 Library  Browser  auto_closing_level=SUITE  # suite shares same browser context, etc.
 Library  String  # for RegEx string manipulation
+
+# Use to optimize script readibility for collaborators with non-tech background. 
+#Test Setup  Browser  #
+#Suite Setup  Get Browser  # across the whole test suite 
 
 *** Keywords ***
 Open Iframe
@@ -113,9 +104,9 @@ ABN Test Valid Age Input
   Type Text  //input[@id="age"]  
   ...        txt="1000"  # invalid age input
   ...        delay=200 ms
-    Run Keyword And Expect Error  
-    ...  TimeoutError: locator.click:*  
-    ...  Click  //button[@class="base-btn__inner-button"]  # button click fails upon 
+  Run Keyword And Expect Error  
+  ...  TimeoutError: locator.click:*  
+  ...  Click  //button[@class="base-btn__inner-button"]  # button click fails upon 
                                                            # invalid age input  
 
 ABN Test Ordinal Mortgage Calculation: Fixed >= Flexible Contract 
@@ -226,6 +217,7 @@ ABN Test Ordinal Mortgage Calculation: Fixed >= Self-Employment >= Flex Contract
   Sleep  1 s  # wait for N seconds before closing browser preview  
 
 #Try Iframe Injection Approach
+# Frame punching
 #  #Try Click  xpath://iframe[@id="29789"] >> css:img[alt=Alleen]
 #  Register Keyword To Run On Failure  Take Screenshot  failure-{index}  fullPage=True  # take screenshot upon each failure
 # # Page 1: Start Mortgage Calculation 
@@ -238,6 +230,6 @@ ABN Test Ordinal Mortgage Calculation: Fixed >= Self-Employment >= Flex Contract
 #  ...  timeout=2 s  # wait for cookies element to appear
 #  Click  //a[@id="aab-cookie-consent-agree"]  # accept cookies
 #  # Page 2: Wat is uw situatie?
-#  Click  xpath://iframe[@id="29789"] >> css:img[alt=Have no mortgage]  
+#  Click  xpath://iframe[@id="29789"] >>> css:img[alt=Have no mortgage]  
 #        # Returns Error: locator.click: Unsupported token "@id" while parsing selector "xpath://iframe[@id="29789"]"
 #  Sleep  5 s

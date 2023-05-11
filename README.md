@@ -1,7 +1,7 @@
 ## General Info
 Aim: Practice tutorials to use Robot Framework for web automation. 
 
-## Test questions & answers: 
+## Test Questions & Answers: 
 1) Primary test: When going through the simplest choice path of the [ABN mortgage calculator](https://www.abnamro.nl/nl/prive/hypotheken/maximale-hypotheek-berekenen.html), does the calculator output a numeric calculation for mortgage? 
    - Yes, see Report for ABN Test Numeric Mortgage Calculation.
 2) Additional tests: 
@@ -37,7 +37,46 @@ Aim: Practice tutorials to use Robot Framework for web automation.
 - [Documenting Workflow tests and Data-Driven tests](https://github.com/robotframework/HowToWriteGoodTestCases/blob/master/HowToWriteGoodTestCases.rst)
 
 
-## Notes & General Tips for Web Test Automation: 
+# Notes & General Tips for Web Test Automation
+
+## Handling Risk Mitigation 
+
+The primary goal of test automation is to mitigate risk for the client. Thus, every 
+project starts off with mapping out the core functionality of an application, as well as 
+what makes sense to automate in the first place. Following, priority weights are assigned 
+to each core functionality based on several criteria, e.g., impact, failure, testibility, 
+priority, etc. Finally, core functionality gets assigned to risk categories - low, mid, 
+high - based on average weigthed scores. This serves as basis to devise an overall
+strategy in terms of the actions that need to be undertaken to mitigate the desired % risk. 
+
+To make sure that you dedicate efforts towards relevant end goals, it makes sense 
+to iteratively touch base with clients, testers, etc. to reach agreement regarding 
+priorities and communicate the general risk mitigation strategy.  
+
+## Keeping Test Automation Projects Overseeable for Oneself and for Collaboration
+
+In real-world projects, the Keyword section is kept apart. For own convenience and 
+global overview, it is recommended to create custom keywords when the test flow 
+requires parameters or when repetition of action sequences is encountered. 
+ 
+Keywords also allow you to create an overseeable test flow for testers and other project
+collaborators with minimal technical expertise. For instance, it is handy if testers
+could assess parts of the application by filling out relevant parameters, without 
+necessarily having to go into the technical details dealing with the behavior of the 
+application. Clear documentation practices are key here too; e.g., describing the purpose 
+of actions in the test sequence such that testers can understand the coupling between an 
+action and specific elements searched on a webpage. Similarly, the Settings section can be 
+used to take out redundancies and complexities from the Keyword section; e.g., that a 
+browser is being started.
+
+## Setting Up Collaborative Workflows
+
+To ensure that you focus on working on the right project aspects and versions, it makes 
+sense to keep a close, regular feedback loop with developers, testers, among others, and
+explore ways to help each other get stuff done. As test automation engineer, you have 
+considerable autonomy in setting up such collaborations! 
+
+## Other Tips for Test Automation: 
 - Aim to automate tests with reference to unique and stationary properties of the webpage. 
   E.g., Layout stays rather stable, process flow is more likely to change in terms of 
   action steps or behavior-input contingencies. 
